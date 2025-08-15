@@ -85,7 +85,7 @@ def test_delete_symbol_positive(utils, input_string, symbol, expected_output):
 @pytest.mark.negative
 @pytest.mark.parametrize("input_string, symbol, expected_output", [
     ("", "", ""),
-    ("  ", " ", " "),
+    (" ", " ", ""),
     ("12345", "", "12345")
 ])
 def test_delete_symbol_negative(utils, input_string, symbol, expected_output):
