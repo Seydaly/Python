@@ -12,7 +12,7 @@ class Student(Base):
     education_form = Column(String, nullable=False)
     subject_id = Column(Integer, nullable=False)
 
-DATABASE_URL = "postgresql://postgres:1223vbhbtd3742@localhost:5432/SQL_lesson"
+DATABASE_URL = "ветка для подключения"
 engine = create_engine(DATABASE_URL, future=True)
 
-Base.metadata.create_all(bind=engine) 
+Base.metadata.create_all(bind=engine)
