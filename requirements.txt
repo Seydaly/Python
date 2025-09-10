@@ -1,3 +1,4 @@
-pytest~=8.3.3
-selenium==4.35.0
-requests
+SQLAlchemy>=2.0
+psycopg2-binary
+pytest
+
